@@ -30,6 +30,9 @@ export const StyleGuide = () => {
           </div>
         </div>
       </div>
+      <div>
+        <span className="body-lg">title</span>
+      </div>
     </div>
   );
 };

@@ -1,0 +1,17 @@
+/* LATO */
+
+@font-face {
+  font-family: "lato";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/Lato-Regular.ttf") format("ttf");
+}
+
+/* OPEN SANS */
+
+@font-face {
+  font-family: "open-sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/OpenSans-Regular.ttf") format("ttf");
+}
