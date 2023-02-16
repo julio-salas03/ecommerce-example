@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "generate:component": "plop --plopfile scripts/plop-component.js",
+    "generate:icon": "plop --plopfile scripts/plop-icon.js"
   },
   "dependencies": {
     "@next/font": "13.1.6",
@@ -37,6 +39,7 @@
     "autoprefixer": "^10.4.13",
     "babel-loader": "^8.3.0",
     "eslint-plugin-storybook": "^0.6.10",
+    "plop": "^3.1.2",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.6",
     "webpack": "^5.75.0"
